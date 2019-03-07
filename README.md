@@ -1,2 +1,0 @@
-# edyucom
-personal website
