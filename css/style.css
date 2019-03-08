@@ -1,40 +1,51 @@
-nav, header, footer{
-    display: block;
-    margin: 0;
+.navbar{
+    background-color: white;
+    padding: 2px 15px 2px 15px;
 }
-
+/*
 body{
-    line-height: 1;
-    margin: 0;
-    background-color: aqua
+    background-image:url(/img/bg8.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+*/
 
-nav{
-    width: 100%;
-    margin: 0;
-}
 
-nav ul{
-    background-color: antiquewhite;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
-}
-ul.topnav li{
-    list-style: none;   
-    float: left;
-}
+h1{
+/*    font-family: 'Bilbo', cursive;*/
+    font-family: 'Courgette', cursive;
+/*    font-family: 'Kaushan Script', cursive;*/
+    font-family: 'Marck Script', cursive;
+/*    font-family: 'Open Sans Condensed', sans-serif;*/
+    font-family: 'Poiret One', cursive;
+/*    font-family: 'Raleway', sans-serif;*/
+    font-family: 'Sacramento', cursive;
+/*    font-family: 'Comfortaa', cursive;*/
+    font-family: 'Montez', cursive;
+/*    font-family: 'Tulpen One', cursive;*/
+/*    font-family: 'Righteous', cursive;*/
+    font-family: 'Comfortaa', cursive;
 
-ul.topnav li a{
-    display: block;
-    text-decoration: none;
-    min-height: 16px;
-    text-align: center;
-    padding: 14px;
-    text-transform: uppercase;
-    color: black;
 }
-
-ul.topnav li a:hover{
-    background-color:azure
+h2{
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size:1.5rem;
+}
+h3{
+    font-family: 'Reenie Beanie', cursive;
+}
+h4{
+    font-family: 'Fredericka the Great', cursive;
+}
+h5{
+    font-family: 'Montserrat', sans-serif;
+}
+h6{
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Source Code Pro', monospace;
+    font-family: 'Inconsolata', monospace;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Josefin Slab', serif;
 }
