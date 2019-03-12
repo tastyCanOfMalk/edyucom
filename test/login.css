@@ -69,3 +69,32 @@ p {
     font-size: .9rem;
     text-decoration: none;
 }
+
+/*Login portal*/
+.card-block.signin-cardblock{
+    padding:10px;
+}
+body.signin-body{
+    background-color: whitesmoke;
+}
+.container.signin-container{
+    margin-top: 8%;
+}
+.card.signin-card{
+    padding:20px;
+    background-color: floralwhite;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+    -mox-box-shadow: 2px 2px 5px rgba(0,0,0,.5);
+    max-width: 500px;
+}
+img.signin-img{
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+}
+button.btn-signin{
+    color:white;
+    background-color:dimgrey;
+    width:100%;
+}
