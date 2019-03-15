@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  color: pink;
+  color: red;
   font-family: Georgia, Times, serif;
 }
 
@@ -71,20 +71,20 @@ h1 {
   color: pink;
 }
 
+#main-nav ul li a:hover {
+  color: blue;
+}
+
 .pro-img {
-  -webkit-box-shadow: 0 0 15px #edf455;
-  box-shadow: 0 0 15px #edf455;
+  border-radius: 50px;
+  -webkit-box-shadow: 0 0 15px #555;
+  box-shadow: 0 0 15px #555;
   border: 1px solid #00AA8D;
-  border-radius: 50%;
   background-color: #00AA8D;
   width: 22%;
   height: 120px;
   display: inline-block;
   float: left;
   margin: 15px;
-}
-
-.alert {
-  border: 1px solid pink;
 }
 /*# sourceMappingURL=app.css.map */
