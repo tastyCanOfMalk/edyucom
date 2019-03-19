@@ -87,4 +87,24 @@ h1 {
   float: left;
   margin: 15px;
 }
+
+.alert, .success, .warning, .dang {
+  border: 1px solid #333;
+  margin: 10px 0;
+  padding: 15px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.success {
+  background: red;
+}
+
+.warning {
+  background: blue;
+}
+
+.dang {
+  background: yellow;
+}
 /*# sourceMappingURL=app.css.map */
