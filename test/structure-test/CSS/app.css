@@ -1,11 +1,11 @@
 body {
-  margin: 10px;
+  margin: 0;
   padding: 0;
   width: 100%;
 }
 
 h1 {
-  color: pink;
+  color: #eee;
   font-family: Georgia, Times, serif;
 }
 
@@ -67,15 +67,19 @@ h1 {
 
 #main-nav ul li a {
   text-decoration: none;
-  font-size: 32px;
-  color: pink;
+  font-size: 22px;
+  color: #eee;
+}
+
+#main-nav ul li a:hover {
+  color: red;
 }
 
 .pro-img {
-  -webkit-box-shadow: 0 0 15px #edf455;
-  box-shadow: 0 0 15px #edf455;
+  -webkit-box-shadow: 0 0 15px red;
+  box-shadow: 0 0 15px red;
   border: 1px solid #00AA8D;
-  border-radius: 50%;
+  border-radius: 50px;
   background-color: #00AA8D;
   width: 22%;
   height: 120px;
@@ -84,7 +88,23 @@ h1 {
   margin: 15px;
 }
 
-.alert {
-  border: 1px solid pink;
+.alert, .success, .warning, .dang {
+  border: 1px solid #333;
+  margin: 10px 0;
+  padding: 15px;
+  text-transform: uppercase;
+  border-radius: 10px;
+}
+
+.success {
+  background: red;
+}
+
+.warning {
+  background: blue;
+}
+
+.dang {
+  background: yellow;
 }
 /*# sourceMappingURL=app.css.map */
