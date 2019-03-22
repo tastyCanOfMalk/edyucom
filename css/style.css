@@ -19,15 +19,25 @@ a.nav-link:hover {
 
 
 h1 {
-    font-family: 'Courgette', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3.5rem;
+    color: #4f4f4f;
 }
 
-h2 {}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+}
 
-h3 {}
+h3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
 
-h4 {}
+h4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.4rem;
+    
+}
 
 h5 {}
 
@@ -70,22 +80,8 @@ p {
     text-decoration: none;
 }
 
-.portrait img{
-    border-radius: 50%;
-    -webkit-box-shadow: 0px 0px 20px #d2d2d2;
-        /* box-shadow: 0 0 15px black; */
-    /* height: 120px; */
-    /* display: inline-block; */
-    /* box-shadow: 2px 2px 20px aquamarine; */
-    display: block;
-    margin-left: auto;
-    margin-right: 5%;
-    position: absolute;
+.contactMe a:hover,
+.contactMe a{
+    color: #0f236a;
+    text-decoration: none;
 }
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: 5%;
-    /* width: 50%; */
-  }
