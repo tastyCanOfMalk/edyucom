@@ -85,3 +85,17 @@ p {
     color: #0f236a;
     text-decoration: none;
 }
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+}
+label {
+    color: #333;
+}
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+}
