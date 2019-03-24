@@ -2,6 +2,15 @@
 <html lang="en">
 
 <head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-136778192-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-22754809-1');
+</script>
 
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -60,23 +69,21 @@
 
     <div class="container">
         <div class="row">
-            <div class="card col-3 text-center">
-                <h4>Get in touch?</h4>
-                <br>
-                <p>Shoot me a message with any enquiries you might have!
-                    <br>
-                    <br>
-                    I'll be sure to reply as soon as possible.
-                </p>
+            <div class="col text-center">
+                <h1 class="display-1">GET IN TOUCH</h1>
+                <h2>I'll get back to you asap!</p>
             </div>
-            <div class="card col-6">
-                
+        </div>
+
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-8">
                 <form id="contact-form" method="post" action="/php/contactForm.php" role="form" data-toggle="validator">
                     <div class="row">
                         <div class="col-12">
                             <div class="form-group">
                                 <label for="form_name">Full name</label>
-                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Firstname Lastname" required="required">
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Name" required="required">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
@@ -105,11 +112,9 @@
                     </div><!-- row -->
                 </form>
             </div>
-            <div class="card col-3"></div>
-            
-        </div><!-- row -->
-    </div><!-- container -->
-
+            <div class="col"></div>
+        </div>
+    </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
