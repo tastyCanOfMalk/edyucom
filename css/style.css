@@ -99,3 +99,74 @@ label {
     letter-spacing: 0.2em;
     margin-bottom: 20px;
 }
+
+.card-header{
+    font-size: 1.4rem;
+    color: #F3F7F0;
+}
+.card-header-color-1{
+    background-color: #2E3532;
+}
+.card-header-color-2{
+    background-color: #0E8187;
+}
+.card-header-color-3{
+    background-color: #7A1514;
+}
+.card-header-color-4{
+    background-color: #57467B;
+}
+.card-header-color-5{
+    background-color: #60594D;
+}
+.card-header-color-6{
+    background-color: #34623F;
+}
+.card-header-color-7{
+    background-color: #A35535;
+}
+.card-header-color-8{
+    background-color: #A0A300;
+}
+.card-header-color-9{
+    background-color: #8B635C;
+}
+.card-header-color-10{
+    background-color: #6284EA;
+}
+.border-color-1{
+    border-color: #2E3532;
+}
+.border-color-2{
+    border-color: #0E8187;
+}
+.border-color-3{
+    border-color: #7A1514;
+}
+.border-color-4{
+    border-color: #57467B;
+}
+.border-color-5{
+    border-color: #60594D;
+}
+.border-color-6{
+    border-color: #34623F;
+}
+.border-color-7{
+    border-color: #A35535;
+}
+.border-color-8{
+    border-color: #A0A300;
+}
+.border-color-9{
+    border-color: #8B635C;
+}
+.border-color-10{
+    border-color: #6284EA;
+}
+.border-color-1{
+    border-color: #2E3532;
+}
+.display-1{
+    margin-bottom: 50px;
+}
