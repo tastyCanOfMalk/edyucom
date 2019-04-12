@@ -44,3 +44,4 @@ Ultimate goal of website to showcase any coding projects. Website will be made u
 
 # Project ideas
 - Flash card study website
+- Remove photography and blog sections from website and add to project section instead
