@@ -41,7 +41,3 @@ Ultimate goal of website to showcase any coding projects. Website will be made u
 - Convert to a SASS centric design
 - Eventually ditch the R template for RMD posts 
 - Use PHPMailer instead of the standard mail() function
-
-# Project ideas
-- Flash card study website
-- Remove photography and blog sections from website and add to project section instead
