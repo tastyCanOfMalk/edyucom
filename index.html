@@ -141,17 +141,18 @@
 
         <div class="row">
             <div class="col"></div>
-            <div class="col-8">
-                <form id="contact-form" method="post" action="/php/contactForm.php" role="form" data-toggle="validator">
+            <div class="col-6">
+                <form id="contact-form" method="post" action="recaptcha/contact.php" role="form" data-toggle="validator">
                     <div class="row">
                         <div class="col-12">
                             <div class="form-group">
-                                <label for="form_name">Full name</label>
+                                <label for="form_name">Name</label>
                                 <input id="form_name" type="text" name="name" class="form-control" placeholder="Name" required="required">
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
-                    </div><!-- row -->
+                    </div><!-- /row -->
+
                     <div class="row">
                         <div class="col-12">
                             <div class="form-group">
@@ -160,7 +161,8 @@
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
-                    </div><!-- row -->
+                    </div><!-- /row -->
+
                     <div class="row">
                         <div class="col-12">
                             <div class="form-group">
@@ -169,11 +171,25 @@
                                 <div class="help-block with-errors"></div>
                             </div>
                         </div>
-                        <div class="col-md-12">
-                            <input type="submit" name="submit" class="btn btn-success btn-send" value="Send message">
-                            
+                    </div><!-- /row -->
+                    
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <br>
+                                <div class="g-recaptcha" data-sitekey="6Ldd55oUAAAAAPwfEXv4xwhzbk-DvYncxlHgeaKS" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                                <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
+                                <div class="help-block with-errors"></div>
+                            </div>
                         </div>
-                    </div><!-- row -->
+                    </div><!-- /row -->
+
+                    <div class="row">
+                        <div class="col-12">
+                            <input type="submit" name="submit" class="btn btn-outline-light btn-send" value="Send message">
+                        </div>
+                    </div><!-- /rows -->
+
                 </form>
             </div>
             <div class="col"></div>
@@ -187,10 +203,10 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="js/bootstrap.min.js"></script>
-    <!-- for contact form -->
+    <!-- contact form -->
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    <script src="validator.js"></script>
-    <script src="contact.js"></script>
+    <script src="recaptcha/validator.js"></script>
+    <script src="recaptcha/contact.js"></script>
 </body>
 
 </html>

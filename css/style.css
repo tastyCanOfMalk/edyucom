@@ -51,6 +51,11 @@ p {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.4rem;
 }
+.form-group label{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.4rem;
+}
 /* /FONTS */
 
 html, 
