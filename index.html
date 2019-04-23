@@ -130,6 +130,7 @@
     
     <!-- contact -->
     <div class="container" id="section_Contact">
+
         <div class="row text-center">
             <div class="col"></div>
             <div class="col-8">
@@ -143,6 +144,7 @@
             <div class="col"></div>
             <div class="col-6">
                 <form id="contact-form" method="post" action="recaptcha/contact.php" role="form" data-toggle="validator">
+                    <div class="messages"></div>
                     <div class="row">
                         <div class="col-12">
                             <div class="form-group">
@@ -189,7 +191,6 @@
                             <input type="submit" name="submit" class="btn btn-outline-light btn-send" value="Send message">
                         </div>
                     </div><!-- /rows -->
-
                 </form>
             </div>
             <div class="col"></div>
@@ -197,16 +198,83 @@
     </div>
 <!-- /contact -->
 
+<div class="container">
+        <div class="row">
+            <div class="col-xl-8 offset-xl-2">
+
+                <form id="contact-form" method="post" action="contact.php" role="form">
+
+                    <div class="messages"></div>
+
+                    <div class="controls">
+                        <div class="row">
+
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="form_name">Name *</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required"
+                                        data-error="Name is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label for="form_email">Email *</label>
+                                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required"
+                                        data-error="Valid email is required.">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="form_message">Message *</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required"
+                                data-error="Please leave a message."></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+
+                        <div class="form-group">
+                            <div class="g-recaptcha" data-sitekey="6Ldd55oUAAAAAPwfEXv4xwhzbk-DvYncxlHgeaKS" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
+                            <input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">
+                            <div class="help-block with-errors"></div>
+                        </div>
+
+
+                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+
+
+                    </div>
+
+                </form>
+
+            </div>
+            <!-- /.8 -->
+
+        </div>
+        <!-- /.row-->
+
+    </div>
+    <!-- /.container-->
+
+
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script> -->
     <!-- contact form -->
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    <script src="recaptcha/validator.js"></script>
-    <script src="recaptcha/contact.js"></script>
+    <script src="validator.js"></script>
+    <script src="contact.js"></script>
 </body>
 
 </html>
