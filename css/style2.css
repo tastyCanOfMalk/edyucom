@@ -1,3 +1,4 @@
+
 /* NAVBAR */
 .navbar {
     background-color: white;
@@ -58,19 +59,21 @@ p {
 }
 /* /FONTS */
 
-/* html, 
+html, 
 body, 
 #section_About,
 #section_Projects, 
 #section_Contact{
     height:auto;
     min-height: 100vh;
-} */
+}
 
 html {
     scroll-behavior: smooth;
 }
-/* #section_About, 
+
+
+#section_About, 
 #section_Projects, 
 #section_Contact{
     height:auto;
@@ -80,29 +83,33 @@ html {
     background-size: cover;    
     height:100%;
     min-height: 100vh;
-} */
-#section_About.container {
-    background-image: url(https://ed-yu.com/test/img/bg4.jpg);
+}
+
+#section_About{
+    background-image: url("http://ed-yu.com/test/img/bg4.jpg");
     width:100vw;
     height: 100vh; 
     background-size: cover;
     background-color:black;
 }
 #section_Projects {
+    background-color: whitesmoke;
     padding-left:20px;
     padding-right:20px;
+    /* background-image: url("http://ed-yu.com/test/img/bg4.jpg"); */
     width:100vw;
     height: 100vh; 
     background-size: cover;
-    background-color: whitesmoke;
 }
 #section_Contact {
-    background-image: url(https://ed-yu.com/test/img/bg2.jpg);
     width:100vw;
     height: 100vh; 
     background-size: cover;
     background-color:black;
+    background-image: url("http://ed-yu.com/test/img/bg2.jpg");
+    width:100vw;
 }
+
 
  .container{
     margin:0;
@@ -184,6 +191,7 @@ html {
     border: 2px solid whitesmoke;
     box-shadow: 1px 1px aquamarine;
 } */
+
 
 .card-header {
     font-size: 20px;
