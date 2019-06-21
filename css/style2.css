@@ -122,7 +122,8 @@ html {
 .fab.fa-github,
 .fab.fa-kaggle,
 .fab.fa-linkedin,
-.far.fa-envelope{
+.far.fa-envelope,
+.fab.fa-hackerrank{
     font-size:3em;
     padding:0 20px 0 0;
     text-decoration: none;
@@ -168,12 +169,23 @@ html {
     transform: translate(0, -5);
 }
 .social-icons a:nth-child(4) {
-    color:#DC4C3F;
+    color:#29bb5b;
     cursor: pointer;
     text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
     transition: all ease-in-out 150ms;
 }
 .social-icons a:nth-child(4):hover {
+    margin-top: -10px;
+    text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
+    transform: translate(0, -8);
+}
+.social-icons a:nth-child(5) {
+    color:#DC4C3F;
+    cursor: pointer;
+    text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 150ms;
+}
+.social-icons a:nth-child(5):hover {
     margin-top: -10px;
     text-shadow: 0px 16px 10px rgba(0, 0, 0, 0.3);
     transform: translate(0, -8);
